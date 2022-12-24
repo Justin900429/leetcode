@@ -59,6 +59,7 @@ class Solution:
 
 ### Best solution
 This solution is obtained from **observing the sequence**.
+
 $$
 \begin{align}
 \text{num[1]} &= 1 \\
