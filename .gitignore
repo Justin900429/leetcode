@@ -47,3 +47,4 @@ dist/**
 *.nls.*.json
 *.i18n.json
 .env
+.mypy_cache
