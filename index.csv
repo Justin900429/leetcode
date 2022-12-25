@@ -1,2 +1,3 @@
 pro_num,pro_title,file_name,tag,pro_link
 790,Domino and Tromino Tiling,790_domino.md,dp,domino-and-tromino-tiling/description/
+2389,Longest Subsequence With Limited Sum,2389_long_sub.md,sort/greedy/prefix/binary-search,longest-subsequence-with-limited-sum/description/
