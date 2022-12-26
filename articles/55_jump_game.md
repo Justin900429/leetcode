@@ -20,6 +20,7 @@ This problem requires us to find the maximum index that can reach from the curre
 
 ## Solution
 Here, we define $\text{dp}[i]$ as the maximum index which can reach from the position $i$. Then we have
+
 $$
 \text{dp}[i] = 
 \begin{cases}
@@ -28,6 +29,7 @@ $$
 0 &, otherwise
 \end{cases}
 $$
+
 Note that we should always check whether current index is reachable.
 
 ```python
