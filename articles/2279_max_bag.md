@@ -23,7 +23,7 @@ Note that there may be other ways of placing the rocks that result in an answer 
 To fill up more bags with rock, we can first find it the capacity and check how much rocks we need to fill up the bags. We should start from the smallest one (need less rocks to fill up) and place the rocks in it. The whole process should be done greedily to ensure maximum filled-up bags.
 
 ## Solution
-The algorithm is as follow
+The algorithm is as follows
 
 ```
 1. Create a residual array and sort the residual array in ascending order
