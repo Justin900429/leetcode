@@ -16,7 +16,7 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 > [Link to the page.](https://leetcode.com/problems/jump-game/description/)
 
 ## Concept
-This problem requires us to find the maximum index that can reach from the current position. For example, if we have the `nums` = [2, 3, 1], then the maximum index we can reach from `index 0` is `2`. The result requires us to check whether the maximum index accumulated from `index 0` can reach the end of the `nums`
+This problem requires us to find the maximum index that can reach from the current position. For example, if we have the `nums = [2, 3, 1]`, then the maximum index we can reach from `index 0` is `2`. The result requires us to check whether the maximum index accumulated from `index 0` can reach the end of the `nums`
 
 ## Solution
 Here, we define $\text{dp}[i]$ as the maximum index which can reach from the position $i$. Then we have
