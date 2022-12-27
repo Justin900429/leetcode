@@ -1,4 +1,5 @@
 pro_num,pro_title,file_name,tag,pro_link
-790,Domino and Tromino Tiling,790_domino.md,dp,domino-and-tromino-tiling/description/
-2389,Longest Subsequence With Limited Sum,2389_long_sub.md,sort/greedy/prefix/binary-search,longest-subsequence-with-limited-sum/description/
-55,Jump Game,55_jump_game.md,dp,jump-game/description/
+790,Domino and Tromino Tiling,790_domino.md,dp,domino-and-tromino-tiling
+2389,Longest Subsequence With Limited Sum,2389_long_sub.md,sort/greedy/prefix/binary-search,longest-subsequence-with-limited-sum
+55,Jump Game,55_jump_game.md,dp,jump-game
+2279,Maximum Bags With Full Capacity of Rocks,2279_max_bag.md,greedy/sort,maximum-bags-with-full-capacity-of-rocks
