@@ -8,7 +8,7 @@ Return an array answer of length m where $\text{answer[i]}$ is the maximum size 
 A subsequence is an array that can be derived from another array by deleting some or no elements without changing the order of the remaining elements.
 
 ### Example 1
-```
+```text
 Input: nums = [4,5,2,1], queries = [3,10,21]
 Output: [2,3,4]
 Explanation: We answer the queries as follows:

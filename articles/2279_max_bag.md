@@ -6,7 +6,7 @@ You have `n` bags numbered from `0` to `n - 1`. You are given two 0-indexed inte
 Return the maximum number of bags that could have full capacity after placing the additional rocks in some bags.
 
 ### Example
-```
+```text
 Input: capacity = [2,3,4,5], rocks = [1,2,4,4], additionalRocks = 2
 Output: 3
 Explanation:
