@@ -21,7 +21,7 @@ This problem can be easily solved with Dynamic Programming. Observe that the $2 
 
 Observe that we can create a $2 \times 5$ board by combining a $2 \times 1$ board by a special pattern that made from a $2 \times 4$ board. Note that we use the **special pattern** to prevent from overlapping with others. For $n \lt 3$, there is only 1 special pattern. On the other hand, for $n \ge 3$, there are 2 special patterns. See the image below.
 
-![show 1](images/790/show_1.jpg)
+![show 1](../static/images/790/show_1.jpg)
 
 The meaning of **special pattern**  is that the board **cannot** be made from any other board as shown in the above the image. Therefore, the number $i$ board, we have:
 $$
