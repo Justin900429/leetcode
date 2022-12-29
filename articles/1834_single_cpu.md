@@ -53,9 +53,8 @@ class Solution:
                 heapq.heappush(temp, tasks.popleft()[1:])
            
             res.append(temp[0][-1])
-            cur_time += temp[0][0]
-            heapq.heappop(temp)
-
+            cur_time += heapq.heappop(temp)[0]
+            
         return res
 ```
 
