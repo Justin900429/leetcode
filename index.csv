@@ -6,3 +6,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1962,Remove Stones to Minimize the Total,1962_remove_min_stone.md,heap,remove-stones-to-minimize-the-total
 1834,Single-Threaded CPU,1834_single_cpu.md,heap/sort,single-threaded-cpu
 797,All Paths From Source to Target,797_all_path.md,graph/backtracking,all-paths-from-source-to-target
+980,Unique Paths III,980_unique_path_III.md,backtracking,unique-paths-iii
