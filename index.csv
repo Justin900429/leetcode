@@ -8,3 +8,4 @@ pro_num,pro_title,file_name,tag,pro_link
 797,All Paths From Source to Target,797_all_path.md,graph/backtracking,all-paths-from-source-to-target
 980,Unique Paths III,980_unique_path_III.md,backtracking,unique-paths-iii
 290,Word Pattern,290_word_pattern.md,hash,word-pattern
+520,Detect Capital,520_detect_capital.md,string,detect-capital
