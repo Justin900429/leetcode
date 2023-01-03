@@ -20,6 +20,8 @@ Input: word = "FlaG"
 Output: false
 ```
 
+> [Link to the page](https://leetcode.com/problems/detect-capital/)
+
 ## Concept
 
 Just consider all three cases. If any of it is true, return true. Otherwise, return false.
