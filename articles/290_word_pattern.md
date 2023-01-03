@@ -13,6 +13,8 @@ Input: pattern = "abba", s = "dog cat cat dog"
 Output: true
 ```
 
+> [Link to the page](https://leetcode.com/problems/word-pattern/)
+
 ## Concept
 
 The key concept of this question is the word **bijection**. Bijection means that each element should be **1 to 1**. Therefore, we cannot connect multiple patterns to a single word. To save the relationship between patterns and words, we can maintain a hash table and check whether each pattern match to a unique word.
