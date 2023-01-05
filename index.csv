@@ -11,3 +11,4 @@ pro_num,pro_title,file_name,tag,pro_link
 520,Detect Capital,520_detect_capital.md,string,detect-capital
 944,Delete Columns to Make Sorted,944_delete_columns.md,string,delete-columns-to-make-sorted
 2244,Minimum Rounds to Complete All Tasks,2244_minimum_rounds.md,hash/greedy,minimum-rounds-to-complete-all-tasks
+452,Minimum Number of Arrows to Burst Balloons,452_minimum_num_arrows.md,sort/greedy,minimum-number-of-arrows-to-burst-balloons
