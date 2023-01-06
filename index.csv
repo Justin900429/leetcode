@@ -12,3 +12,4 @@ pro_num,pro_title,file_name,tag,pro_link
 944,Delete Columns to Make Sorted,944_delete_columns.md,string,delete-columns-to-make-sorted
 2244,Minimum Rounds to Complete All Tasks,2244_minimum_rounds.md,hash/greedy,minimum-rounds-to-complete-all-tasks
 452,Minimum Number of Arrows to Burst Balloons,452_minimum_num_arrows.md,sort/greedy,minimum-number-of-arrows-to-burst-balloons
+1833,Maximum Ice Cream Bars,1833_maximum_ice.md,sort/greedy,maximum-ice-cream-bars
