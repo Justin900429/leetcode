@@ -18,6 +18,8 @@ Output: 4
 Explanation: The boy can buy ice cream bars at indices 0,1,2,4 for a total price of 1 + 3 + 2 + 1 = 7.
 ```
 
+> [Link to the problem](https://leetcode.com/problems/maximum-ice-cream-bars/)
+
 ## Concept
 
 To get the ice-cream bars, we can first sort the costs and start from the smallest one. After we spend all our money, we just return the number of ice-creams we get.
