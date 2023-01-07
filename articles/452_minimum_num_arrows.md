@@ -18,6 +18,8 @@ Explanation: The balloons can be burst by 2 arrows:
 - Shoot an arrow at x = 11, bursting the balloons [10,16] and [7,12].
 ```
 
+> [Link to the problem](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)
+
 ## Concept
 
 This problem can be classified into maximum-interval problem. After finding the maximum interval within a subrange, we can destroy all the ballons within this set with minimum cost, that is, `1`. We just follow this rule til the end and return the answer.
