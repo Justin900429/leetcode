@@ -33,7 +33,7 @@ However, even we save the $\text{diff}_x$ and $\text{diff}_y$, there might have 
 
 1. **y** should always be positive, (Put the negative sign to **x** if necessary)
 2. If **y** is 0, x should always be positive
-3. Devide both (**x**, **y**) by theirs greatest common devisor (GCD)
+3. Devide both (**x**, **y**) by their greatest common devisor (GCD)
 
 ```python
 class Solution:
