@@ -15,3 +15,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1833,Maximum Ice Cream Bars,1833_maximum_ice.md,sort/greedy,maximum-ice-cream-bars
 134,Gas Station,134_gas_station.md,greedy,gas-station
 149,Max Points on a Line,149_max_point.md,hash/geometry/math,max-points-on-a-line
+144,Binary Tree Preorder Traversal,144_binary_tree_preorder.md,binary-tree/stack/dfs,binary-tree-preorder-traversal
