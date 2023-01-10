@@ -13,6 +13,8 @@ Input: root = [1,null,2,3]
 Output: [1,2,3]
 ```
 
+> [Link to the problem](https://leetcode.com/problems/binary-tree-preorder-traversal/)
+
 ## Concept
 
 The problem requires us to do the preorder traversal, which can be achieved in two ways: iterative and recursive.
