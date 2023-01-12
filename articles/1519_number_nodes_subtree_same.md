@@ -21,6 +21,8 @@ Explanation: Node 0 has label 'a' and its sub-tree has node 2 with label 'a' as 
 Node 1 has a label 'b'. The sub-tree of node 1 contains nodes 1,4 and 5, as nodes 4 and 5 have different labels than node 1, the answer is just 1 (the node itself).
 ```
 
+> [Link to the problem](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
+
 ## Concept
 
 Another DFS/iterative problem. We just explore the subtree and comput how many nodes have the same label as the parent node. Note that we don't have to create many count array for each node. We can save the previous num with a variable and get the number by subtracting the previous with current number.
