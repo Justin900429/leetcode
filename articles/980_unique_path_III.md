@@ -12,6 +12,7 @@ You are given an `m x n` integer array grid where `grid[i][j]` could be:
 Return the number of 4-directional walks from the starting square to the ending square, that walk over every non-obstacle square exactly once.
 
 ### Example
+
 ![980 example image](https://assets.leetcode.com/uploads/2021/08/02/lc-unique1.jpg)
 
 ```text
@@ -22,10 +23,14 @@ Explanation: We have the following two paths:
 2. (0,0),(1,0),(2,0),(2,1),(1,1),(0,1),(0,2),(0,3),(1,3),(1,2),(2,2)
 ```
 
+> [Link to the problem](https://leetcode.com/problems/unique-paths-iii/)
+
 ## Concept
+
 Finding the unique path to cover all the non-obstacle square can be easily solved with backtracking. We can first save the **start point** and the **end point** and change the **end point** and **obstacle** to `1`, and **start point** to 0. When we visit a point, we change it to 1 and compute the total sum of the `grid` when we reach the end point. The sum should equal to `len(grid) * len(grid[0])` indicating all the squares had been covered.
 
 ## Solution
+
 ```python
 class Solution:
     def uniquePathsIII(self, grid: List[List[int]]) -> int:
@@ -71,3 +76,6 @@ class Solution:
         find(start_x, start_y)
         return count
 ```
+
+> Time complexity: $O(4^{mn})$ \
+> Space complexity: $O(mn)$
