@@ -20,3 +20,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1443,Minimum Time to Collect All Apples in a Tree,1443_minimum_time_apple.md,dfs/tree,minimum-time-to-collect-all-apples-in-a-tree
 1519,Number of Nodes in the Sub-Tree With the Same Label,1519_number_nodes_subtree_same.md,dfs/bfs/tree,number-of-nodes-in-the-sub-tree-with-the-same-label
 2246,Longest Path With Different Adjacent Characters,2246_longest_path_diff_char.md,dfs/tree,longest-path-with-different-adjacent-characters
+1061,Lexicographically Smallest Equivalent String,1061_lexico_smallest_equiv_str.md,union-find/str,lexicographically-smallest-equivalent-string
