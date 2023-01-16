@@ -27,6 +27,8 @@ There is 1 additional good path: 1 -> 0 -> 2 -> 4.
 Note that 0 -> 2 -> 3 is not a good path because vals[2] > vals[0].
 ```
 
+> [Link to the problem](https://leetcode.com/problems/number-of-good-paths/)
+
 ## Concept
 
 ## Solution
@@ -35,8 +37,8 @@ Note that 0 -> 2 -> 3 is not a good path because vals[2] > vals[0].
 class Solution:
     def numberOfGoodPaths(self, vals: List[int], edges: List[List[int]]) -> int:
         res = n = len(vals)
-        count = [Counter({vals[i]: 1}) for i in range(n)]
-        edges = sorted([(max(vals[i], vals[j]), i, j) for i, j in edges])
+        rank = [1] * n
+        edges = sorted(edges, key=lambda x: max(vals[x[0]], vals[x[1]]))
         par = [-1] * n
 
         def find(n):
@@ -45,13 +47,18 @@ class Solution:
             
             par[n] = find(par[n])
             return par[n]
-            
-        for v, i, j in edges:
+
+        for i, j in edges:
             p_i, p_j = find(i), find(j)
-            c_i, c_j = count[p_i][v], count[p_j][v]
-            res += c_i * c_j
-            par[p_i] = p_j
-            count[p_j] = Counter({v: c_i + c_j})
+
+            if vals[p_i] == vals[p_j]:
+                res += rank[p_i] * rank[p_j]
+                par[p_i] = p_j
+                rank[p_j] += rank[p_i]
+            elif vals[p_i] > vals[p_j]:
+                par[p_j] = p_i
+            else:
+                par[p_i] = p_j
         
         return res
 ```
