@@ -23,3 +23,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1061,Lexicographically Smallest Equivalent String,1061_lexico_smallest_equiv_str.md,union-find/str,lexicographically-smallest-equivalent-string
 2421,Number of Good Paths,2421_number_of_good_path.md,graph/union-find,number-of-good-paths
 57,Insert Interval,57_insert_interval.md,binary-search/array/,insert-interval
+926,Flip String to Monotone Increasing,926_flip_string_mono.md,dp,flip-string-to-monotone-increasing
