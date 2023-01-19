@@ -25,3 +25,4 @@ pro_num,pro_title,file_name,tag,pro_link
 57,Insert Interval,57_insert_interval.md,binary-search/array/,insert-interval
 926,Flip String to Monotone Increasing,926_flip_string_mono.md,dp,flip-string-to-monotone-increasing
 918,Maximum Sum Circular Subarray,918_maximum_sum_circular.md,dp,maximum-sum-circular-subarray
+974,Subarray Sums Divisible by K,974_sub_divisible_by_k.md,prefix/hash,subarray-sums-divisible-by-k
