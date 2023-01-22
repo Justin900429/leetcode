@@ -28,3 +28,4 @@ pro_num,pro_title,file_name,tag,pro_link
 974,Subarray Sums Divisible by K,974_sub_divisible_by_k.md,prefix/hash,subarray-sums-divisible-by-k
 491,Non-decreasing Subsequences,491_non_decreasing_subsequence.md,bitmask/backtracking,non-decreasing-subsequences
 93,Restore IP Addresses,93_restore_ip.md,backtracking/string,restore-ip-addresses
+131,Palindrome Partitioning,131_palindrome_partition.md,dp/backtracking,palindrome-partitioning
