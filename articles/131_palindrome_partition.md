@@ -58,5 +58,5 @@ class Solution:
         return res
 ```
 
-> Time complexity: $O(1)$ \
-> Space complexity: $O(s^2)$
+> Time complexity: $O(n \times 2^n)$ \
+> Space complexity: $O(n^2)$
