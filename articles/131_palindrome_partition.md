@@ -15,6 +15,17 @@ Output: [["a","a","b"],["aa","b"]]
 
 ## Concept
 
+The backtracking step is quite intuitive, we just iterate the string from current starting index, and check to which index is still a palindrome and start from a new round. The difficult part is to quickly check the palindrome for the given starting and ending points. The proper way is to apply dp with a 2D table, where $\text{T[i][j]}$ means whether string `s` is a palindrome from index $i$ to index $j$. The recurrence can be written as:
+
+$$
+\text{T[i][j]} = 
+\begin{cases}
+\text{T[i + 1][j - 1]} &, \text{if s[i] = s[j]} \\
+1 &, \text{if s[i]=s[j] and abs(i - j)} \le \text{2} \\
+0 &, otherwise
+\end{cases}
+$$
+
 ## Solution
 
 ```python
