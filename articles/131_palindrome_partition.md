@@ -60,3 +60,5 @@ class Solution:
 
 > Time complexity: $O(n \times 2^n)$ \
 > Space complexity: $O(n^2)$
+
+Note that the time complexity is obtained by ${n - 1 \choose 1} + {n - 1 \choose 2} + \cdots + {n - 1 \choose n - 1} = O(2^{n - 1}) = O(2^n)$ with another $O(n)$ to build each partition.
