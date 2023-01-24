@@ -30,3 +30,4 @@ pro_num,pro_title,file_name,tag,pro_link
 93,Restore IP Addresses,93_restore_ip.md,backtracking/string,restore-ip-addresses
 131,Palindrome Partitioning,131_palindrome_partition.md,dp/backtracking,palindrome-partitioning
 977,Find the Town Judge,977_find_the_two_judge.md,graph,find-the-town-judge
+909,Snakes and Ladders,909_snake_ladders.md,bfs/shortest-path,snakes-and-ladders
