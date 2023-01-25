@@ -31,3 +31,4 @@ pro_num,pro_title,file_name,tag,pro_link
 131,Palindrome Partitioning,131_palindrome_partition.md,dp/backtracking,palindrome-partitioning
 977,Find the Town Judge,977_find_the_two_judge.md,graph,find-the-town-judge
 909,Snakes and Ladders,909_snake_ladders.md,bfs/shortest-path,snakes-and-ladders
+2359,Find Closest Node to Given Two Nodes,2359_find_closest_node_to_two_nodes.md,bfs/shortest-path,find-closest-node-to-given-two-nodes
