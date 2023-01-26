@@ -1,6 +1,5 @@
 # 790 - Domino and Tromino Tiling
 
-
 ## Problem Description
 
 You have two types of tiles: a $2 \times 1$ domino shape and a tromino shape. You may rotate these shapes.
@@ -13,6 +12,7 @@ Given an integer n, return the number of ways to tile an $2\times n$ board. Sinc
 In a tiling, every square must be covered by a tile. Two tilings are different if and only if there are two 4-directionally adjacent cells on the board such that exactly one of the tilings has both squares occupied by a tile.
 
 ## Concept
+
 This problem can be easily solved with Dynamic Programming. Observe that the $2 \times 2$ board can be made from $2 \times 1$ by adding another **domino tile**. Similarly, $2 \times 3$ board can be made from $2 \times 2$ by adding one **domino tile** and from $2 \times 1$ with two domino tile.
 
 ## Solution
@@ -53,11 +53,13 @@ class Solution:
         
         return cur[n - 1] % MOD
 ```
+
 > Time complexity: $O(n^2)$ \
 > Space complexity: $O(n)$
 >
 
 ### Best solution
+
 This solution is obtained from **observing the sequence**.
 
 $$
@@ -72,7 +74,7 @@ $$
 \end{align}
 $$
 
-From the above example, we can easily derived that 
+From the above example, we can easily derived that
 $$\text{num[i]} = 2 * \text{num[i - 1]} + \text{num[i - 3]}$$
 
 ```python
@@ -104,7 +106,7 @@ $$
 > Time complexity: $O(n)$ \
 > Space complexity: $O(n)$
 
-
 ### Another awesome solution
+
 Please visit [here](https://leetcode.com/problems/domino-and-tromino-tiling/solutions/116612/easy-to-understand-o-n-solution-with-drawing-picture-explanation/), shown by the [yuweiming70
 ](https://leetcode.com/yuweiming70/).
