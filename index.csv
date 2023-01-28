@@ -34,3 +34,4 @@ pro_num,pro_title,file_name,tag,pro_link
 2359,Find Closest Node to Given Two Nodes,2359_find_closest_node_to_two_nodes.md,bfs/shortest-path,find-closest-node-to-given-two-nodes
 787,Cheapest Flights Within K Stops,787_cheapest_flight_within_k_stops.md,bfs/shortest-path,cheapest-flights-within-k-stops
 472,Concatenated Words,472_concatenated_words.md,string/dfs/dp,concatenated-words
+352,Data Stream as Disjoint Intervals,352_data_stream_as_disjoint.md,binary-search,data-stream-as-disjoint-intervals
