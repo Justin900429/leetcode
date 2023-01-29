@@ -35,3 +35,4 @@ pro_num,pro_title,file_name,tag,pro_link
 787,Cheapest Flights Within K Stops,787_cheapest_flight_within_k_stops.md,bfs/shortest-path,cheapest-flights-within-k-stops
 472,Concatenated Words,472_concatenated_words.md,string/dfs/dp,concatenated-words
 352,Data Stream as Disjoint Intervals,352_data_stream_as_disjoint.md,binary-search,data-stream-as-disjoint-intervals
+460,LFU Cache,460_lfu_cache.md,doubly-linked-list/hash,lfu-cache
