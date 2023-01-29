@@ -138,5 +138,5 @@ class LFUCache:
             self.cache[key] = [new_node, 1]
 ```
 
-> Time complexity: $\text{get}: O(n)$, $\text{put}: O(1)$ \
+> Time complexity: $\text{get}: O(1)$, $\text{put}: O(1)$ \
 > Space complexity: $O(n)$
