@@ -40,3 +40,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1626,Best Team With No Conflicts,1626_best_team.md,dp/sort,best-team-with-no-conflicts
 1067,Greatest Common Divisor of Strings,1067_gcd_strings.md,str/math,greatest-common-divisor-of-strings
 953,Verifying an Alien Dictionary,953_verifying_alien.md,str/hash,verifying-an-alien-dictionary
+6,Zigzag conversion,6_zigzag_conversion.md,str,zigzag-conversion
