@@ -44,3 +44,4 @@ pro_num,pro_title,file_name,tag,pro_link
 567,Permutation in String,567_permutation_str.md,hash/str/sliding-window,permutation-in-string
 438,Find All Anagrams in a String,438_find_all_anagrams.md,hash/str/sliding-window,find-all-anagrams-in-a-string
 1470,Shuffle the Array,1470_shuffle_the_array.md,array,shuffle-the-array
+904,Fruit Into Baskets,904_fruit_into_baskets.md,hash/sliding-window,fruit-into-baskets
