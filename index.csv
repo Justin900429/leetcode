@@ -46,3 +46,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1470,Shuffle the Array,1470_shuffle_the_array.md,array,shuffle-the-array
 904,Fruit Into Baskets,904_fruit_into_baskets.md,hash/sliding-window,fruit-into-baskets
 45,Jump Game II,45_jump_game_ii.md,dp/greedy,jump-game-ii
+2306,Naming a company,2306_naming_a_company.md,hash/string,naming-a-company
