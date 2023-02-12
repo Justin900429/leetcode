@@ -48,3 +48,4 @@ pro_num,pro_title,file_name,tag,pro_link
 45,Jump Game II,45_jump_game_ii.md,dp/greedy,jump-game-ii
 2306,Naming a Company,2306_naming_a_company.md,hash/string,naming-a-company
 1129,Shortest Path with Alternating Colors,1129_shortest_path_with_alternating_colors.md,bfs/shortest-path,shortest-path-with-alternating-colors
+2477,Minimum Fuel Cost to Report to the Capital,2477_minimum_fuel_cost.md,bfs/tree,minimum-fuel-cost-to-report-to-the-capital
