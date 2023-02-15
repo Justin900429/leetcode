@@ -30,5 +30,7 @@ class Solution:
         return num
 ```
 
-> Time complexity: $O(1)$ \
+> Time complexity: $O(max(N, \log_{10}k))$ \
 > Space complexity: $O(1)$
+
+Note that $N$ here is the length of the array `num`.
