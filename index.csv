@@ -51,3 +51,4 @@ pro_num,pro_title,file_name,tag,pro_link
 2477,Minimum Fuel Cost to Report to the Capital,2477_minimum_fuel_cost.md,bfs/tree,minimum-fuel-cost-to-report-to-the-capital
 1523,Count Odd Numbers in an Interval Range,1523_count_odd_numbers.md,math,count-odd-numbers-in-an-interval-range
 67,Add Binary,67_add_binary.md,str,add-binary
+989,Add to Array-Form of Integer,989_add_to_array_form.md,array/str,add-to-array-form-of-integer
