@@ -59,3 +59,4 @@ pro_num,pro_title,file_name,tag,pro_link
 35,Search Insert Position,35_search_insert.md,binary-search,search-insert-position
 540,Single Element in a Sorted Array,540_single_element.md,binary-search,single-element-in-a-sorted-array
 1011,Capacity To Ship Packages Within D Days,1011_capacity_to_ship.md,binary-search,capacity-to-ship-packages-within-d-days
+502,IPO,502_ipo.md,heap/greedy/sort,ipo
