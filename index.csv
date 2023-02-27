@@ -63,3 +63,4 @@ pro_num,pro_title,file_name,tag,pro_link
 1675,Minimize Deviation in Array,1675_minimize_deviation.md,heap/greedy,minimize-deviation-in-array
 121,Best Time to Buy and Sell Stock,121_best_time_to_buy.md,dp,best-time-to-buy-and-sell-stock
 72,Edit Distance,72_edit_distance.md,dp,edit-distance
+427,Construct Quad Tree,427_construct_quad_tree.md,dfs,construct-quad-tree
