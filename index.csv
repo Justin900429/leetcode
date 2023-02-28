@@ -57,4 +57,11 @@ pro_num,pro_title,file_name,tag,pro_link
 226,Invert Binary Tree,226_invert_binary_tree.md,binary-tree/dfs,invert-binary-tree
 103,Binary Tree Zigzag Level Order Traversal,103_binary_tree_zigzag.md,binary-tree/bfs,binary-tree-zigzag-level-order-traversal
 35,Search Insert Position,35_search_insert.md,binary-search,search-insert-position
+540,Single Element in a Sorted Array,540_single_element.md,binary-search,single-element-in-a-sorted-array
+1011,Capacity To Ship Packages Within D Days,1011_capacity_to_ship.md,binary-search,capacity-to-ship-packages-within-d-days
+502,IPO,502_ipo.md,heap/greedy/sort,ipo
+1675,Minimize Deviation in Array,1675_minimize_deviation.md,heap/greedy,minimize-deviation-in-array
+121,Best Time to Buy and Sell Stock,121_best_time_to_buy.md,dp,best-time-to-buy-and-sell-stock
+72,Edit Distance,72_edit_distance.md,dp,edit-distance
+427,Construct Quad Tree,427_construct_quad_tree.md,dfs,construct-quad-tree
 652,Find Duplicate Subtrees,652_find_duplicate_subtrees.md,tree/hash,find-duplicate-subtrees
