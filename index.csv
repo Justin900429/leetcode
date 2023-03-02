@@ -64,4 +64,6 @@ pro_num,pro_title,file_name,tag,pro_link
 121,Best Time to Buy and Sell Stock,121_best_time_to_buy.md,dp,best-time-to-buy-and-sell-stock
 72,Edit Distance,72_edit_distance.md,dp,edit-distance
 427,Construct Quad Tree,427_construct_quad_tree.md,dfs,construct-quad-tree
+652,Find Duplicate Subtrees,652_find_duplicate_subtrees.md,tree/hash,find-duplicate-subtrees
+912,Sort an Array,912_sort_an_array.md,sort,sort-an-array
 443,String Compression,443_string_compression.md,str,string-compression
