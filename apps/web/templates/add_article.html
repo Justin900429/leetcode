@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block title %}Add an article{% endblock %} {% block
+content %} {% block extra_css %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('web.static', filename='form.css') }}"
+/>
+<script
+  src="https://kit.fontawesome.com/8f31de1937.js"
+  crossorigin="anonymous"
+></script>
+{% endblock %}
+
+<h2>Add new article</h2>
+<form
+  action="{{ url_for('web.create_article') }}"
+  method="POST"
+  novalidate="novalidate"
+>
+  {{ form.csrf_token }}
+  <p>{{ form.number.label }}</p>
+  <p>{{ form.number(placeholder="Number only", class_="text-input") }}</p>
+  {% for error in form.number.errors %}
+  <p class="error-msg">
+    <i class="fas fa-triangle-exclamation"></i>&nbsp;{{ error }}
+  </p>
+  {% endfor %}
+  <p>{{ form.title.label }}</p>
+  <p>{{ form.title(placeholder="", class_="text-input") }}</p>
+  {% for error in form.title.errors %}
+  <p class="error-msg">
+    <i class="fa-solid fa-triangle-exclamation"></i>&nbsp;{{ error }}
+  </p>
+  {% endfor %}
+  <p>{{ form.tag.label }}</p>
+  <p>
+    {{ form.tag(placeholder="Use '/' to separate different tags",
+    class_="text-input") }}
+  </p>
+  {% for error in form.tag.errors %}
+  <p class="error-msg">
+    <i class="fa-solid fa-triangle-exclamation"></i>&nbsp;{{ error }}
+  </p>
+  {% endfor %}
+  <p>{{ form.pro_link.label }}</p>
+  <p>{{ form.pro_link(class_="text-input") }}</p>
+  {% for error in form.pro_link.errors %}
+  <p class="error-msg">
+    <i class="fa-solid fa-triangle-exclamation"></i>&nbsp;{{ error }}
+  </p>
+  {% endfor %}
+  <p>{{ form.content.label }}</p>
+  <p>{{ form.content(rows='100') }}</p>
+  {% for error in form.content.errors %}
+  <p class="error-msg">
+    <i class="fa-solid fa-triangle-exclamation"></i>&nbsp;{{ error }}
+  </p>
+  {% endfor %}
+  <p>{{ form.submit() }}</p>
+</form>
+{% endblock %}

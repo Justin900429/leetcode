@@ -1,0 +1,52 @@
+{% extends "base.html" %} {% block title %}Home Page - List of
+Problems{%endblock %} {% block extra_css %}
+<link
+  rel="stylesheet"
+  href="{{ url_for('web.static',
+filename='table.css') }}"
+/>
+{% endblock %} {% block content %}
+<a href="{{ url_for('web.create_article')}}">Add article</a>
+<h2>Articles List</h2>
+<table>
+  <thead>
+    <tr>
+      <th>NO.</th>
+      <th>Title</th>
+      <th>Explanation</th>
+      <th>Tag</th>
+      <th>Leetcode</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for article in articles %}
+    <tr>
+      <td class="center-col">{{ article.number }}</td>
+      <td class="center-col">{{ article.title }}</td>
+      <td class="center-col">
+        <a href="{{ url_for('web.read_article', number=article.number) }}"
+          >solution</a
+        >
+      </td>
+      <td class="center-col">
+        <div>
+          {% for tag in article.tags %}<a
+            href="{{ url_for('web.get_tag', tag=tag.tag) }}"
+            class="post-tag"
+            >#{{ tag.tag }}</a
+          >{% endfor %}
+        </div>
+      </td>
+      <td class="center-col">
+        <a
+          href="https://leetcode.com/problems/{{ article.pro_link }}"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Link</a
+        >
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

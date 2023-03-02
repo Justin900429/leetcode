@@ -50,3 +50,4 @@ dist/**
 .mypy_cache
 migrations
 *.sqlite
+apps
