@@ -67,3 +67,4 @@ pro_num,pro_title,file_name,tag,pro_link
 652,Find Duplicate Subtrees,652_find_duplicate_subtrees.md,tree/hash,find-duplicate-subtrees
 912,Sort an Array,912_sort_an_array.md,sort,sort-an-array
 443,String Compression,443_string_compression.md,str,string-compression
+28,Find the Index of the First Occurrence in a String,28_find_the_index.md,str,find-the-index-of-the-first-occurrence-in-a-string
