@@ -67,3 +67,4 @@ pro_num,pro_title,file_name,tag,pro_link
 652,Find Duplicate Subtrees,652_find_duplicate_subtrees.md,tree/hash,find-duplicate-subtrees
 912,Sort an Array,912_sort_an_array.md,sort,sort-an-array
 2444,Count Subarrays With Fixed Bounds,2444_count_subarrays_with_fixed_bounds.md,sliding-window,count-subarrays-with-fixed-bounds
+1539,Kth Missing Positive Number,1539_kth_missing.md,binary-search,kth-missing-positive-number
